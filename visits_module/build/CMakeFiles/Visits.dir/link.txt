@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -std=gnu++11  -O3 -DNDEBUG  -shared -Wl,-soname,libVisits.so -o libVisits.so CMakeFiles/Visits.dir/VisitSolver.o CMakeFiles/Visits.dir/ExternalSolver.o -larmadillo 
