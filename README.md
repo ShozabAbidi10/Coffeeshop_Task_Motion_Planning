@@ -4,7 +4,7 @@ This project is an extension of AI for robotics II (AIRO2) course’s assignment
 
 The context of the assignment is the same, there is a waiter robot which is assigned with a task to serve the orders to the customers by visiting the coffee tables in an optimal way, the optimality is based on the distance travelled by the robot. Therefore, the robot has to reason on the discrete sequence of table visits to cover all the regions in the coffee shop. Unlike the previous assignment, we are considering that uncertainties will be involved with the robot’s motion, thus the robot has to navigate and localize itself while travelling from one region to another. Here ‘region’ refers to the table, in a realistic scenario a robot can be anywhere around the table while serving the customers but for simplicity we are considering that all the regions have a single way-point location associated with them in a 2D grid. It means that if the robot reaches the corresponding waypoint location of the region that region will be considered as being visited. The entire project can be found in this repository. Plesae find the intructios to run the project. 
 
-## Project Installation:
+## Project Installation and Setup:
 
 To successfully run the project the first thing to do is to install the popf-tif planner, the details of which can be found in this repository: 
 ```
@@ -30,7 +30,7 @@ If the external module is built correctly, the planner should run without any er
 
 ![image](https://user-images.githubusercontent.com/61094879/130298228-e1e0d32a-8c56-4215-9ae9-1eff2e5adf00.png)
 
-##Acknowledgements
+## Acknowledgements:
 
 Thanks to:
 
