@@ -1,4 +1,7 @@
-# AI for Robotics II course Assignment 2 (MSc Robotics Engineering, Unige)
+# Artificial Intelligence for Robotics II
+### MSc Robotics Engineering, University of Genoa
+##### Assignment 02: Task and Motion Planning
+###### Group: *Syed Hasan Shozab Abidi [4929631@studenti.unige.it]; Muhammad Ali Haider Dar [5046263@studenti.unige.it]*
 
 This project is an extension of AI for robotics II (AIRO2) course’s assignment 1, in which we got familiar with the operational usage of an AI task planner and tested our understanding by developing a planning model for a toy robotic coffee shop. In this project we will use the same abstract scenario of the robotic coffee shop in order to get familiarized with the idea of modeling integrated task and motion planning problems in a belief space. 
 
@@ -32,10 +35,9 @@ If the external module is built correctly, the planner should run without any er
 
 ## Acknowledgements:
 
-Thanks to:
-
-1.  Dr. Antony Thomas, for providing the basic setup of the system including domain and external planner files for us to build further on.
-2.  Marco Gabriele Fedozzi, for helping out with the docker image loaded with all dependencies.
+We would like to show our gratitude to:
+1. Dr. Antony Thomas, for providing the basic setup of the system, including domain and external planner files for us to build further on.
+2. Marco Gabriele Fedozzi, for helping out with the docker image loaded with all dependencies.
 
 
 
