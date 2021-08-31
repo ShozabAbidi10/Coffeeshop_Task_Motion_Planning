@@ -1,11 +1,13 @@
 # Artificial Intelligence for Robotics II
-### MSc Robotics Engineering, University of Genoa
-##### Assignment 02: Task and Motion Planning
-###### Group: *Syed Hasan Shozab Abidi [4929631@studenti.unige.it]; Muhammad Ali Haider Dar [5046263@studenti.unige.it]*
+##### Submitted by: 
+###### 1. *Syed Hasan Shozab Abidi [4929631@studenti.unige.it]*
+###### 2. *Muhammad Ali Haider Dar [5046263@studenti.unige.it]*
 
-This project is an extension of AI for robotics II (AIRO2) course’s assignment 1, in which we got familiar with the operational usage of an AI task planner and tested our understanding by developing a planning model for a toy robotic coffee shop. In this project we will use the same abstract scenario of the robotic coffee shop in order to get familiarized with the idea of modeling integrated task and motion planning problems in a belief space. 
+# Assignment 02: Task and Motion Planning
 
-The context of the assignment is the same, there is a waiter robot which is assigned with a task to serve the orders to the customers by visiting the coffee tables in an optimal way, the optimality is based on the distance travelled by the robot. Therefore, the robot has to reason on the discrete sequence of table visits to cover all the regions in the coffee shop. Unlike the previous assignment, we are considering that uncertainties will be involved with the robot’s motion, thus the robot has to navigate and localize itself while travelling from one region to another. Here ‘region’ refers to the table, in a realistic scenario a robot can be anywhere around the table while serving the customers but for simplicity we are considering that all the regions have a single way-point location associated with them in a 2D grid. It means that if the robot reaches the corresponding waypoint location of the region that region will be considered as being visited. The entire project can be found in this repository. Plesae find the intructios to run the project. 
+This project is an extension of the first assignment of this Artificial Intelligence for Robotics II (AIRo2) course, in which we got familiar with the operational usage of an AI task planner and tested our understanding by developing a planning model for a robotic coffee shop. In this project, we used the same abstract scenario of the robotic coffee shop in order to get familiarized with the idea of modeling integrated task and motion planning problems in a belief space.
+
+The context of the assignment is the same, there is a waiter robot which is assigned with a task to serve the orders to the respective customers by visiting their coffee tables in an optimal way. The optimality is based on the distance travelled by the robot. Therefore, the robot has to reason on the discrete sequence of table visits to cover all the regions in the coffee shop. Unlike the previous assignment, we are considering that uncertainties will be involved with the robot’s motion, thus the robot has to navigate and localize itself while travelling from one region to another. Here ‘region’ refers to the table, in a realistic scenario a robot can be anywhere around the table while serving the customers but for simplicity we are considering that all the regions have a single way-point location associated with them in a 2D grid. It means that if the robot reaches the corresponding waypoint location of the region that region will be considered as being visited. The entire project can be found in this repository along with the instructions to compile it.
 
 ## Project Installation and Setup:
 
@@ -35,7 +37,7 @@ If the external module is built correctly, the planner should run without any er
 
 ## Acknowledgements:
 
-We would like to show our gratitude to:
+We would like to extend our gratitude to:
 1. Dr. Antony Thomas, for providing the basic setup of the system, including domain and external planner files for us to build further on.
 2. Marco Gabriele Fedozzi, for helping out with the docker image loaded with all dependencies.
 
