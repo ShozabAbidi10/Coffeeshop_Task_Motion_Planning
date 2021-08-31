@@ -1,7 +1,7 @@
 # Artificial Intelligence for Robotics II
 ##### Submitted by: 
-###### 1. *Syed Hasan Shozab Abidi [4929631@studenti.unige.it]*
-###### 2. *Muhammad Ali Haider Dar [5046263@studenti.unige.it]*
+###### 1. *Syed Hasan Shozab Abidi, 4929631@studenti.unige.it*
+###### 2. *Muhammad Ali Haider Dar, 5046263@studenti.unige.it*
 
 # Assignment 02: Task and Motion Planning
 
